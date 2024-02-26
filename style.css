@@ -1,0 +1,402 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.heroCont {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.cart1 {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.cart2 {
+    z-index: 2;
+    width: 220px;
+    height: 300px;
+    position: absolute;
+    right: 40%;
+    bottom: 60px;
+    border-radius: 10px;
+}
+
+.cart3 {
+    z-index: 2;
+    width: 220px;
+    height: 300px;
+    position: absolute;
+    right: 25%;
+    bottom: 60px;
+    border-radius: 10px;
+}
+
+.cart4 {
+    z-index: 2;
+    width: 220px;
+    height: 300px;
+    position: absolute;
+    right: 10%;
+    bottom: 60px;
+    border-radius: 10px;
+}
+
+.carr1 {
+    animation: SHOWCART1 1s linear 1 forwards;
+    width: 220px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    bottom: 60px;
+    right: 40%;
+}
+
+@keyframes SHOWCART1 {
+    to {
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.carr2 {
+    animation: SLIDEcart1 1s linear 1 forwards;
+    width: 220px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    bottom: 60px;
+    right: 25%;
+    border-radius: 10px;
+}
+
+
+@keyframes SLIDEcart1 {
+    to {
+        right: 40%;
+    }
+}
+
+.carr3 {
+    animation: SLIDEcart2 1s linear 1 forwards;
+    width: 220px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    bottom: 60px;
+    right: 10%;
+    border-radius: 10px;
+}
+
+
+@keyframes SLIDEcart2 {
+    to {
+        right: 25%;
+    }
+}
+
+.carr4 {
+    animation: HideCART1 1s linear 1 forwards;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 0;
+}
+
+
+@keyframes HideCART1 {
+    to {
+        width: 220px;
+        height: 300px;
+        border-radius: 10px;
+        position: absolute;
+        right: 10%;
+        bottom: 60px;
+        border-radius: 10px;
+        z-index: 2;
+
+    }
+}
+.car1 {
+    animation: SHOWCART2 1s linear 1 forwards;
+    width: 220px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    bottom: 60px;
+    right: 40%;
+}
+
+@keyframes SHOWCART2 {
+    to {
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.car2 {
+    animation: SLIDEcart11 1s linear 1 forwards;
+    width: 220px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    bottom: 60px;
+    right: 25%;
+    border-radius: 10px;
+}
+
+
+@keyframes SLIDEcart11 {
+    to {
+        right: 40%;
+    }
+}
+
+.car3 {
+    animation: SLIDEcart22 1s linear 1 forwards;
+    width: 220px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    bottom: 60px;
+    right: 10%;
+    border-radius: 10px;
+}
+
+
+@keyframes SLIDEcart22 {
+    to {
+        right: 25%;
+    }
+}
+
+.car4 {
+    animation: HideCART11 1s linear 1 forwards;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 0;
+}
+
+
+@keyframes HideCART11 {
+    to {
+        width: 220px;
+        height: 300px;
+        border-radius: 10px;
+        position: absolute;
+        right: 10%;
+        bottom: 60px;
+        border-radius: 10px;
+        z-index: 2;
+
+    }
+}
+
+.carrr1 {
+    animation: SHOWCART222 1s linear 1 forwards;
+    width: 220px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    bottom: 60px;
+    right: 40%;
+}
+
+@keyframes SHOWCART222 {
+    to {
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.carrr2 {
+    animation: SLIDEcart111 1s linear 1 forwards;
+    width: 220px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    bottom: 60px;
+    right: 25%;
+    border-radius: 10px;
+}
+
+
+@keyframes SLIDEcart111 {
+    to {
+        right: 40%;
+    }
+}
+
+.carrr3 {
+    animation: SLIDEcart222 1s linear 1 forwards;
+    width: 220px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    bottom: 60px;
+    right: 10%;
+    border-radius: 10px;
+}
+
+
+@keyframes SLIDEcart222 {
+    to {
+        right: 25%;
+    }
+}
+
+.carrr4 {
+    animation: HideCART111 1s linear 1 forwards;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 0;
+}
+
+
+@keyframes HideCART111 {
+    to {
+        width: 220px;
+        height: 300px;
+        border-radius: 10px;
+        position: absolute;
+        right: 10%;
+        bottom: 60px;
+        border-radius: 10px;
+        z-index: 2;
+
+    }
+}
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+
+.carrrr1 {
+    animation: SHOWCART2222 1s linear 1 forwards;
+    width: 220px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    bottom: 60px;
+    right: 40%;
+}
+
+@keyframes SHOWCART2222 {
+    to {
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.carrrr2 {
+    animation: SLIDEcart1111 1s linear 1 forwards;
+    width: 220px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    bottom: 60px;
+    right: 25%;
+    border-radius: 10px;
+}
+
+
+@keyframes SLIDEcart1111 {
+    to {
+        right: 40%;
+    }
+}
+
+.carrrr3 {
+    animation: SLIDEcart2222 1s linear 1 forwards;
+    width: 220px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    bottom: 60px;
+    right: 10%;
+    border-radius: 10px;
+}
+
+
+@keyframes SLIDEcart2222 {
+    to {
+        right: 25%;
+    }
+}
+
+.carrrr4 {
+    animation: HideCART1111 1s linear 1 forwards;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 0;
+}
+
+
+@keyframes HideCART1111 {
+    to {
+        width: 220px;
+        height: 300px;
+        border-radius: 10px;
+        position: absolute;
+        right: 10%;
+        bottom: 60px;
+        border-radius: 10px;
+        z-index: 2;
+
+    }
+}
